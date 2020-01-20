@@ -2,7 +2,7 @@
 
 Multi-probe roundness measurement algorithms and signal generator.
 
-![Multi probe roundness measurement](img/fourpoint.jpg?raw=true "Multi probe roundness measurement")
+![Multi probe roundness measurement](img/fourpoint.png?raw=true "Multi probe roundness measurement")
 
 From at least three probe signals, multi probe roundness measurement methods can separate the center point motion and roundness profile, which are both included in the probe signals. The methods are especially needed for precise measurements of roundness when a precision spindle cannot be used, for example when measuring large flexible rotors.
 
