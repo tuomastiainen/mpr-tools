@@ -26,7 +26,7 @@ Calculates roundness profile from four probe signals using three-probe calculati
 
 
 ## Getting started
-Run mpr_tools, it will generate signals and display the calculated roundness profile.
+Install requirements and run mpr_tools, it will generate signals and display the calculated roundness profile.
 
 ```
 python mpr_tools.py
