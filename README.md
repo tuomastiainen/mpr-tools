@@ -7,9 +7,7 @@ Multi-probe roundness measurement algorithms and signal generator.
 From at least three probe signals, multi probe roundness measurement methods can separate the center point motion and roundness profile, which are both included in the probe signals. The methods are especially needed for precise measurements of roundness when a precision spindle cannot be used, for example when measuring large flexible rotors.
 
 ## Algorithms
-Short descriptions of the three included multi-probe roundness measurement algorithms.
-
-All of the functions take the probe signals as input and provide roundness profile Fourier coefficients as output. From the complex Fourier coefficients, the roundness profile can be reconstructed with get_roundness_profile function.
+All of the functions take the raw probe signals as input and provide roundness profile Fourier coefficients as output. From the complex Fourier coefficients, the roundness profile can be reconstructed with get_roundness_profile function.
 
 ### Three-probe
 ozono_f_coeff
@@ -37,7 +35,7 @@ python mpr_tools.py
 
 ## Authors
 
-* **Tuomas Tiainen **
+* Tuomas Tiainen 2019-2020
 
 ## License
 
